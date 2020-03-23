@@ -12,7 +12,9 @@ import {
     MatDividerModule,
     MatSortModule,
     MatTableModule,
-    MatGridListModule
+    MatGridListModule,
+    MatDatepickerModule,
+    MatNativeDateModule
 } from '@angular/material';
 
 
@@ -30,7 +32,9 @@ import {
         MatDividerModule,
         MatTableModule,
         MatSortModule,
-        MatGridListModule
+        MatGridListModule,
+        MatDatepickerModule,
+        MatNativeDateModule
     ],
     exports: [
         MatButtonModule,
@@ -45,7 +49,9 @@ import {
         MatDividerModule,
         MatTableModule,
         MatSortModule,
-        MatGridListModule
+        MatGridListModule,
+        MatDatepickerModule,
+        MatNativeDateModule
     ]
 })
 

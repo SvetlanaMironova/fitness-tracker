@@ -14,7 +14,10 @@ import {
     MatTableModule,
     MatGridListModule,
     MatDatepickerModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    MatTabsModule,
+    MatSelectModule,
+    MatProgressSpinnerModule
 } from '@angular/material';
 
 
@@ -34,7 +37,10 @@ import {
         MatSortModule,
         MatGridListModule,
         MatDatepickerModule,
-        MatNativeDateModule
+        MatNativeDateModule,
+        MatTabsModule,
+        MatSelectModule,
+        MatProgressSpinnerModule
     ],
     exports: [
         MatButtonModule,
@@ -51,7 +57,10 @@ import {
         MatSortModule,
         MatGridListModule,
         MatDatepickerModule,
-        MatNativeDateModule
+        MatNativeDateModule,
+        MatTabsModule,
+        MatSelectModule,
+        MatProgressSpinnerModule
     ]
 })
 

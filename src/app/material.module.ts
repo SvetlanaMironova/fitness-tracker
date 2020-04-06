@@ -17,7 +17,8 @@ import {
     MatNativeDateModule,
     MatTabsModule,
     MatSelectModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    MatDialogModule
 } from '@angular/material';
 
 
@@ -40,7 +41,8 @@ import {
         MatNativeDateModule,
         MatTabsModule,
         MatSelectModule,
-        MatProgressSpinnerModule
+        MatProgressSpinnerModule,
+        MatDialogModule
     ],
     exports: [
         MatButtonModule,
@@ -60,7 +62,8 @@ import {
         MatNativeDateModule,
         MatTabsModule,
         MatSelectModule,
-        MatProgressSpinnerModule
+        MatProgressSpinnerModule,
+        MatDialogModule
     ]
 })
 

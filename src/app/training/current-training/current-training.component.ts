@@ -23,7 +23,7 @@ export class CurrentTrainingComponent implements OnInit {
       if (this.progress >= 100) {
         clearInterval(this.timer);
       }
-    }, 1000)
+    }, 1000);
   }
 
   onStop() {
@@ -39,7 +39,7 @@ export class CurrentTrainingComponent implements OnInit {
       } else {
         this.startOrResumeTimer();
       }
-    })
+    });
   }
 
 }
